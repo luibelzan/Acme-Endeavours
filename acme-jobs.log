@@ -1,0 +1,4 @@
+INFO [acme.Launcher] Starting Launcher using Java 1.8.0_292 on luismi-msi with PID 24856 (/home/luismi/Workspace-21.1/Projects/Acme-Endeavours/target/classes started by luismi in /home/luismi/Workspace-21.1/Projects/Acme-Endeavours)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Starting Launcher using Java 1.8.0_292 on luismi-msi with PID 24972 (/home/luismi/Workspace-21.1/Projects/Acme-Endeavours/target/classes started by luismi in /home/luismi/Workspace-21.1/Projects/Acme-Endeavours)
+INFO [acme.Launcher] The following profiles are active: development,populator
