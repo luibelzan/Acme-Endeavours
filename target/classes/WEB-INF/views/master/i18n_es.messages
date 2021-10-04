@@ -31,6 +31,8 @@ master.menu.sign-out = Salir
 
 master.menu.anonymous = Anónimo
 master.menu.anonymous.all-jobs = Ver todos los trabajos
+master.menu.anonymous.list-shouts-recent = Ver los gritos recientes
+master.menu.anonymous.create-shout = Crear un grito
 
 # master.menu.authenticated #######################################################
 
