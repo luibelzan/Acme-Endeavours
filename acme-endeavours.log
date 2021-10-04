@@ -614,3 +614,6 @@ at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebS
 at org.apache.catalina.core.StandardService.addConnector(StandardService.java:244): standardService.connector.startFailed
 at org.apache.catalina.connector.Connector.startInternal(Connector.java:1067): Protocol handler start failed
 at sun.nio.ch.Net.bind0(Native Method): La dirección ya se está usando
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP GET /Acme-Endeavours/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.lang.AssertionError

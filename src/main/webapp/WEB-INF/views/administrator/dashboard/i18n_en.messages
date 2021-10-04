@@ -15,5 +15,18 @@ administrator.dashboard.form.label.average-number-jobs-employer =  Average numbe
 administrator.dashboard.form.label.average-number-applications-worker =  Average number of applications per worker
 administrator.dashboard.form.label.average-number-applications-employer = Average number of applications per employer
 
+administrator.dashboard.form.label.number-public-duty = Number of public duties
+administrator.dashboard.form.label.number-private-duty = Number of private duties
+administrator.dashboard.form.label.number-final-duty = Number of finished duties
+administrator.dashboard.form.label.number-no-final-duty = Number of non finished duties
+administrator.dashboard.form.label.average-duration-duties = Average duration period on duties (in hours)
+administrator.dashboard.form.label.deviation-duration-duties = Deviation duration period on duties (in hours)
+administrator.dashboard.form.label.minimum-duration-duties = Minimun deviation duration on duties (in hours)
+administrator.dashboard.form.label.maximum-duration-duties = Maximun deviation duration on duties (in hours)
+administrator.dashboard.form.label.average-workload-duties = Average workload on duties (in hours)
+administrator.dashboard.form.label.deviation-workload-duties = Deviation workload on duties (in hours)
+administrator.dashboard.form.label.minimum-workload-duties = Minimun deviation workload on duties (in hours)
+administrator.dashboard.form.label.maximum-workload-duties = Maximun deviation workload on duties (in hours)
+
 administrator.dashboard.form.title.application-statuses = Application statuses
 

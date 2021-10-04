@@ -12,9 +12,12 @@
 
 package acme.features.administrator.dashboard;
 
+import java.util.Collection;
+
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
+import acme.entities.duties.Duty;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
@@ -37,5 +40,28 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 
 	@Query("select 1.0 * count(a) / (select count(b) from Application b) from Application a where a.status = acme.entities.jobs.ApplicationStatus.REJECTED")
 	Double ratioOfRejectedApplications();
+	
+	
+	
+	@Query("select d from Duty d")
+	Collection<Duty> findDuties();
+	
+	@Query("select 1.0 * count(d) from Duty d  where d.isPublic= 1")
+	Double numberPublicDuty();
+	
+	@Query("select 1.0 * count(d) from Duty d  where d.isPublic = 0")
+	Double numberPrivateDuty();
+	
+	@Query("select avg(d.workloadInHours) from Duty d")
+	Double averageWorkloadDuties();
+	
+	@Query("select stddev(d.workloadInHours) from Duty d")
+	Double deviationWorkloadDuties();
+	
+	@Query("select min(d.workloadInHours) from Duty d")
+	Double minimumWorkloadDuties();
+	
+	@Query("select max(d.workloadInHours) from Duty d")
+	Double maximumWorkloadDuties();
 
 }
