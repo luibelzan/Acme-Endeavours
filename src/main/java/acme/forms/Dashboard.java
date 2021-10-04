@@ -34,6 +34,20 @@ public class Dashboard implements Serializable {
 	Double						ratioOfAcceptedApplications;
 	Double						ratioOfRejectedApplications;
 
+	
+	Double                      numberPublicDuty;
+	Double                      numberPrivateDuty;
+	Double						numberFinalDuty;
+	Double						numberNoFinalDuty;
+	Double						averageDurationPeriodDuties;
+	Double						deviationDurationPeriodDuties;
+	Double						minimumDurationPeriodDuties;
+	Double						maximumDurationPeriodDuties;
+	Double						averageWorkloadDuties;
+	Double						deviationWorkloadDuties;
+	Double						minimumWorkloadDuties;
+	Double						maximumWorkloadDuties;
+
 	// Derived attributes -----------------------------------------------------
 
 	// Relationships ----------------------------------------------------------

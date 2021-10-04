@@ -47,6 +47,106 @@
 			<acme:print value="${avegageNumberOfApplicationsPerEmployer}"/>
 		</td>
 	</tr>	
+	
+	
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.number-public-duty"/>
+		</th>
+		<td>
+			<acme:print value="${numberPublicDuty}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.number-private-duty"/>
+		</th>
+		<td>
+			<acme:print value="${numberPrivateDuty}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.number-final-duty"/>
+		</th>
+		<td>
+			<acme:print value="${numberFinalDuty}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.number-no-final-duty"/>
+		</th>
+		<td>
+			<acme:print value="${numberNoFinalDuty}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.average-duration-duties"/>
+		</th>
+		<td>
+			<acme:print value="${averageDurationPeriodDuties}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.deviation-duration-duties"/>
+		</th>
+		<td>
+			<acme:print value="${deviationDurationPeriodDuties}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.minimum-duration-duties"/>
+		</th>
+		<td>
+			<acme:print value="${minimumDurationPeriodDuties}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.maximum-duration-duties"/>
+		</th>
+		<td>
+			<acme:print value="${maximumDurationPeriodDuties}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.average-workload-duties"/>
+		</th>
+		<td>
+			<acme:print value="${averageWorkloadDuties}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.deviation-workload-duties"/>
+		</th>
+		<td>
+			<acme:print value="${deviationWorkloadDuties}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.minimum-workload-duties"/>
+		</th>
+		<td>
+			<acme:print value="${minimumWorkloadDuties}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.maximum-workload-duties"/>
+		</th>
+		<td>
+			<acme:print value="${maximumWorkloadDuties}"/>
+		</td>
+	</tr>
+	
+	
 </table>
 
 <h2>

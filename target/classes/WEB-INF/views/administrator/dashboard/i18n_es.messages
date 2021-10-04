@@ -15,4 +15,18 @@ administrator.dashboard.form.label.average-number-jobs-employer =  Número medio
 administrator.dashboard.form.label.average-number-applications-worker =  Número medio de solicitudes por trabajador
 administrator.dashboard.form.label.average-number-applications-employer = Número medio de solicitudes por empleador
 
+
+administrator.dashboard.form.label.number-public-duty = Número de deberes publicos
+administrator.dashboard.form.label.number-private-duty = Número de deberes privados
+administrator.dashboard.form.label.number-final-duty = Número de deberes terminados
+administrator.dashboard.form.label.number-no-final-duty = Número de deberes no terminados
+administrator.dashboard.form.label.average-duration-duties = Media de duración de los deberes (en horas)
+administrator.dashboard.form.label.deviation-duration-duties = Desviación de duración de los deberes (en horas)
+administrator.dashboard.form.label.minimum-duration-duties = Desviación mínima en la duración de los deberes (en horas)
+administrator.dashboard.form.label.maximum-duration-duties = Desviación máxima en la duración de los deberes (en horas)
+administrator.dashboard.form.label.average-workload-duties = Media carga de trabajo de los deberes (en horas)
+administrator.dashboard.form.label.deviation-workload-duties = Desviación carga de trabajo de los deberes (en horas)
+administrator.dashboard.form.label.minimum-workload-duties = Desviación mínima carga de trabajo de los deberes (en horas)
+administrator.dashboard.form.label.maximum-workload-duties = Desviación máxima carga de trabajo de los deberes (en horas)
+
 administrator.dashboard.form.title.application-statuses = Estado de las solicitudes
