@@ -7,3 +7,7 @@ anonymous.shout.form.button.return = Volver
 anonymous.shout.list.label.moment = Momento
 anonymous.shout.list.label.author = Autor
 anonymous.shout.list.label.text = Texto
+anonymous.shout.list.label.info = Info
+
+anonymous.message.form.error.spam.author = Contiene palabras spam
+anonymous.message.form.error.spam = Contiene palabras spam

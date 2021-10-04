@@ -5,6 +5,7 @@ import java.util.Collection;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
+import acme.entities.configuration.Configuration;
 import acme.entities.shouts.Shout;
 import acme.framework.repositories.AbstractRepository;
 
@@ -16,9 +17,9 @@ public interface AnonymousShoutRepository extends AbstractRepository{
 
 	@Query("select s from Shout s where s.id = ?1")
 	Shout findOneShoutById(int id);
-/*
-	@Query("select c from SpamWord c")
-	Collection<SpamWord> findManySpamWord();
-	*/
+	
+	@Query("select c from Configuration c")
+	Collection<Configuration> findManySpamWord();
+	
 
 }
