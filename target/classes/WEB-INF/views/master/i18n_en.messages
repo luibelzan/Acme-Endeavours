@@ -33,11 +33,13 @@ master.menu.anonymous = Anonymous
 master.menu.anonymous.all-jobs = List all jobs
 master.menu.anonymous.list-shouts-recent = List recent shouts
 master.menu.anonymous.create-shout = Create a shout
+master.menu.anonymous.list-duty = List non finished duties
 
 # master.menu.authenticated #######################################################
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.money-exchage = Money exchange
+master.menu.authenticated.list-public-finished-duty = List public and finished duties
 
 # master.menu.administrator ###################################################
 

@@ -1,0 +1,13 @@
+authenticated.task.form.label.title = Título
+authenticated.task.form.label.description = Descripción
+authenticated.task.form.label.initial = Periodo inicial
+authenticated.task.form.label.end = Periodo final
+authenticated.task.form.label.link = Enlace
+authenticated.task.form.label.workload = Carga de trabajo
+
+authenticated.task.list.label.initial = Periodo inicial
+authenticated.task.list.label.end = Periodo final
+authenticated.task.list.label.title = Título
+authenticated.task.list.label.description = Descripción
+
+administrator.announcement.form.button.return = Volver

@@ -1,0 +1,14 @@
+authenticated.task.form.label.title = Title
+authenticated.task.form.label.description = Description
+authenticated.task.form.label.initial = Initial period
+authenticated.task.form.label.end = Final period
+authenticated.task.form.label.link = Link
+authenticated.task.form.label.workload = Workload
+
+authenticated.task.list.label.initial = Initial period
+authenticated.task.list.label.end = Final period
+authenticated.task.list.label.title = Title
+authenticated.task.list.label.description = Description
+
+administrator.announcement.form.button.return = Return
+

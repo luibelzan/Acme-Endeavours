@@ -84,6 +84,120 @@
 		<property name="moment" value="2021/04/10 18:30"/>
 		<property name="info" value="http://www.sample-app.com"/>
 	</bean>
+	
+	<!-- Duties -->
+  
+	<bean id="duty01" class="acme.entities.duties.Duty">
+		<property name="title" value="Task 1"/>
+		<property name="periodInitial" value="2021/02/01 12:30"/>
+		<property name="periodFinal" value="2021/02/13 12:30"/>
+		<property name="description" value="This is task number 1."/>
+		<property name="link" value="http://www.sample-app.com"/>
+		<property name="isPublic" value="true"/>
+    <property name="workloadInHours" value="1.34"/>
+	</bean>
+	<bean id="duty02" class="acme.entities.duties.Duty">
+		<property name="title" value="Task 2"/>
+		<property name="periodInitial" value="2021/02/11 12:30"/>
+		<property name="periodFinal" value="2021/02/28 12:30"/>
+		<property name="description" value="This is task number 2."/>
+		<property name="link" value="http://www.sample-app.com"/>
+		<property name="isPublic" value="true"/>
+    <property name="workloadInHours" value="1.44"/>
+	</bean>
+	<bean id="duty03" class="acme.entities.duties.Duty">
+		<property name="title" value="Task 3"/>
+		<property name="periodInitial" value="2021/03/01 12:30"/>
+		<property name="periodFinal" value="2021/04/01 12:30"/>
+		<property name="description" value="This is task number 3."/>
+		<property name="link" value="http://www.sample-app.com"/>
+		<property name="isPublic" value="true"/>
+    <property name="workloadInHours" value="6.01"/>
+	</bean>
+	<bean id="duty04" class="acme.entities.duties.Duty">
+		<property name="title" value="Task 4"/>
+		<property name="periodInitial" value="2021/03/01 12:30"/>
+		<property name="periodFinal" value="2021/04/06 13:30"/>
+		<property name="description" value="This is task number 4."/>
+		<property name="link" value="http://www.sample-app.com"/>
+		<property name="isPublic" value="true"/>
+    <property name="workloadInHours" value="1.34"/>
+	</bean>
+	<bean id="duty05" class="acme.entities.duties.Duty">
+		<property name="title" value="Task 5"/>
+		<property name="periodInitial" value="2021/03/01 12:30"/>
+		<property name="periodFinal" value="2021/04/06 13:30"/>
+		<property name="description" value="This is task number 5."/>
+		<property name="link" value="http://www.sample-app.com"/>
+		<property name="isPublic" value="false"/>
+    <property name="workloadInHours" value="1.09"/>
+    </bean>
+    
+    <bean id="duty06" class="acme.entities.duties.Duty">
+		<property name="title" value="Hacer la compra"/>
+		<property name="periodInitial" value="2021/07/07 00:00"/>
+		<property name="periodFinal" value="2021/07/08 00:00"/>
+		<property name="description" value="Tengo que ir a comprar tomates"/>
+		<property name="link" value="http://www.sample-app.com"/>
+		<property name="isPublic" value="true"/>
+     <property name="workloadInHours" value="1.34"/>
+	</bean>
+	
+	<bean id="duty07" class="acme.entities.duties.Duty">
+		<property name="title" value="Hacer DP"/>
+		<property name="periodInitial" value="2021/03/31 17:50"/>
+		<property name="periodFinal" value="2021/03/31 17:55"/>
+		<property name="description" value="Tengo que terminar la entrega"/>
+		<property name="link" value="http://www.sample-app.com"/>
+		<property name="isPublic" value="true"/>
+    <property name="workloadInHours" value="0.04"/>
+	</bean>
+	
+	<bean id="duty08" class="acme.entities.duties.Duty">
+		<property name="title" value="Hacer DP tarea 7"/>
+		<property name="periodInitial" value="2021/03/31 17:50"/>
+		<property name="periodFinal" value="2021/08/11 19:55"/>
+		<property name="description" value="Tengo que terminar la entrega"/>
+		<property name="link" value="http://www.sample-app.com"/>
+		<property name="isPublic" value="true"/>
+    <property name="workloadInHours" value="0.04"/>
+	</bean>
+	<bean id="duty09" class="acme.entities.duties.Duty">
+		<property name="title" value="Hacer DP tarea 10"/>
+		<property name="periodInitial" value="2021/03/31 13:50"/>
+		<property name="periodFinal" value="2021/08/15 17:55"/>
+		<property name="description" value="Tengo que terminar la entrega"/>
+		<property name="link" value="http://www.sample-app.com"/>
+		<property name="isPublic" value="true"/>
+    <property name="workloadInHours" value="0.04"/>
+	</bean>
+	<bean id="duty10" class="acme.entities.duties.Duty">
+		<property name="title" value="Hacer DP tarea 8"/>
+		<property name="periodInitial" value="2021/03/31 17:50"/>
+		<property name="periodFinal" value="2021/08/29 17:55"/>
+		<property name="description" value="Tengo que terminar la entrega"/>
+		<property name="link" value="http://www.sample-app.com"/>
+		<property name="isPublic" value="true"/>
+    <property name="workloadInHours" value="0.04"/>
+	</bean>
+	<bean id="duty11" class="acme.entities.duties.Duty">
+		<property name="title" value="Hacer DP tarea 5"/>
+		<property name="periodInitial" value="2021/03/31 19:50"/>
+		<property name="periodFinal" value="2021/08/30 17:55"/>
+		<property name="description" value="Tengo que terminar la entrega"/>
+		<property name="link" value="http://www.sample-app.com"/>
+		<property name="isPublic" value="true"/>
+    <property name="workloadInHours" value="0.04"/>
+	</bean>
+	<bean id="duty12" class="acme.entities.duties.Duty">
+		<property name="title" value="Hacer tarea 1 DP"/>
+		<property name="periodInitial" value="2021/10/03 17:50"/>
+		<property name="periodFinal" value="2021/10/10 17:55"/>
+		<property name="description" value="Tengo que terminar la entrega"/>
+		<property name="link" value="http://www.sample-app.com"/>
+		<property name="isPublic" value="true"/>
+    <property name="workloadInHours" value="0.04"/>
+	</bean>
 
 	<!-- Employers -->
 
