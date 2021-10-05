@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
@@ -13,6 +14,7 @@ import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
 import acme.framework.entities.DomainEntity;
+import acme.framework.entities.Officer;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -53,6 +55,9 @@ public class Duty extends DomainEntity{
 		
 		@NotNull
 		protected Double        workloadInHours;
+		
+		@ManyToOne
+		Officer officer;
 		
 		// Derived attributes -----------------------------------------------------
 		public Double workloadInMinutes() {

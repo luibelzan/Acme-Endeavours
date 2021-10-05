@@ -1,0 +1,14 @@
+officer.duty.form.label.title = Título
+officer.duty.form.label.description = Descripción
+officer.duty.form.label.initial = Periodo inicial
+officer.duty.form.label.end = Periodo final
+officer.duty.form.label.workloadInHours = Carga de trabajo
+officer.duty.form.label.link = Enlace
+officer.duty.form.label.isPublic = Es público
+
+
+officer.duty.list.label.initial = Periodo inicial
+officer.duty.list.label.end = Periodo final
+officer.duty.list.label.title = Título
+
+officer.duty.form.button.return = Volver

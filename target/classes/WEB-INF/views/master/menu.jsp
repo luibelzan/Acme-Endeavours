@@ -32,6 +32,10 @@
 			<acme:menu-suboption code="master.menu.authenticated.list-public-finished-duty" action="/authenticated/duty/list-public-finished"/>
 		</acme:menu-option>
 		
+		<acme:menu-option code="master.menu.officer" access="hasRole('Officer')">
+			<acme:menu-suboption code="master.menu.officer.list-duties" action="/officer/duty/list"/>
+		</acme:menu-option>
+		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.dashboard" action="/administrator/dashboard/show"/>
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
