@@ -12,5 +12,29 @@
 	<acme:form-textbox code="officer.duty.form.label.link" path="link"/>
 	<acme:form-checkbox code="officer.duty.form.label.isPublic" path="isPublic"/>
 	
+	<acme:form-submit test="${command == 'show'}" 
+        code="officer.duty.form.button.update" 
+        action="/officer/duty/update"/>
+        
+    <acme:form-submit test="${command == 'update'}" 
+        code="officer.duty.form.button.update" 
+        action="/officer/duty/update"/>
+	
+	<acme:form-submit test="${command == 'update'}" 
+        code="officer.duty.form.button.delete" 
+        action="/officer/duty/delete"/>
+        
+    <acme:form-submit test="${command == 'show'}" 
+        code="officer.duty.form.button.delete" 
+        action="/officer/duty/delete"/>
+        
+    <acme:form-submit test="${command == 'delete'}" 
+        code="officer.duty.form.button.delete" 
+        action="/officer/duty/delete"/>
+	
+	<acme:form-submit test="${command == 'create'}" 
+        code="officer.duty.form.button.create" 
+        action="/officer/duty/create"/>
+	
 	<acme:form-return code="officer.duty.form.button.return"/>
 </acme:form>

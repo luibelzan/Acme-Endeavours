@@ -34,6 +34,7 @@
 		
 		<acme:menu-option code="master.menu.officer" access="hasRole('Officer')">
 			<acme:menu-suboption code="master.menu.officer.list-duties" action="/officer/duty/list"/>
+			<acme:menu-suboption code="master.menu.officer.create-duties" action="/officer/duty/create"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

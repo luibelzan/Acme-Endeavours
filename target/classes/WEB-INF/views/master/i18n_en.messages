@@ -35,6 +35,11 @@ master.menu.anonymous.list-shouts-recent = List recent shouts
 master.menu.anonymous.create-shout = Create a shout
 master.menu.anonymous.list-duty = List non finished duties
 
+# master.menu.officer #######################################################
+
+master.menu.officer.list-duties = List duties
+master.menu.officer.create-duties = Create a duty
+
 # master.menu.authenticated #######################################################
 
 master.menu.authenticated = Authenticated

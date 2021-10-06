@@ -21,6 +21,14 @@ public class OfficerDutyController extends AbstractController<Officer, Duty> {
 	@Autowired
 	protected OfficerDutyShowService showService;
 	
+	@Autowired
+	protected OfficerDutyCreateService createService;
+	
+	@Autowired
+	protected OfficerDutyDeleteService deleteService;
+	
+	@Autowired
+	protected OfficerDutyUpdateService updateService;
 
 	// Constructors -----------------------------------------------------------
 
@@ -30,6 +38,9 @@ public class OfficerDutyController extends AbstractController<Officer, Duty> {
 		
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
 		super.addBasicCommand(BasicCommand.SHOW, this.showService);
+		super.addBasicCommand(BasicCommand.CREATE, this.createService);
+		super.addBasicCommand(BasicCommand.DELETE, this.deleteService);
+		super.addBasicCommand(BasicCommand.UPDATE, this.updateService);
 	}
 
 }

@@ -35,6 +35,11 @@ master.menu.anonymous.list-shouts-recent = Ver los gritos recientes
 master.menu.anonymous.create-shout = Crear un grito
 master.menu.anonymous.list-duty = Ver deberes no terminados
 
+# master.menu.officer #######################################################
+
+master.menu.officer.list-duties = Ver deberes
+master.menu.officer.create-duties = Crear un deber
+
 # master.menu.authenticated #######################################################
 
 master.menu.authenticated = Autentificado
