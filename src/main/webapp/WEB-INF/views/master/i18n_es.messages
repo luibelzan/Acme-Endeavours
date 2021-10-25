@@ -35,6 +35,11 @@ master.menu.anonymous.list-shouts-recent = Ver los gritos recientes
 master.menu.anonymous.create-shout = Crear un grito
 master.menu.anonymous.list-duty = Ver deberes no terminados
 
+# master.menu.officer #######################################################
+
+master.menu.officer.list-duties = Ver deberes
+master.menu.officer.create-duties = Crear un deber
+
 # master.menu.authenticated #######################################################
 
 master.menu.authenticated = Autentificado
@@ -48,6 +53,7 @@ master.menu.administrator.dashboard = Panel de indicadores
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.populate-initial = Poblar BD (inicial)
 master.menu.administrator.populate-sample = Poblar BD (ejemplos)
+master.menu.administrator.spamWordsList = Ver palabras spam
 master.menu.administrator.shutdown = Parar el sistema
 
 # master.menu.employer ########################################################

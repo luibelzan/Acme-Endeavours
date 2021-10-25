@@ -1,0 +1,26 @@
+officer.duty.form.label.title = Title
+officer.duty.form.label.description = Description
+officer.duty.form.label.initial = Initial period
+officer.duty.form.label.end = Final period
+officer.duty.form.label.workloadInHours = Workload
+officer.duty.form.label.link = Link
+officer.duty.form.label.isPublic = Is public
+
+
+officer.duty.list.label.initial = Initial period
+officer.duty.list.label.end = Final period
+officer.duty.list.label.title = Title
+
+officer.duty.form.button.return = Return
+officer.duty.form.button.create = Create a duty
+officer.duty.form.button.delete = Delete
+officer.duty.form.button.update = Update
+
+officer.message.form.error.spam = Is spam
+officer.message.form.error.date = Initial period cant be after final period
+officer.message.form.error.date3 = Date cannot be before today
+officer.message.form.error.workload4 = Workload has more than 2 decimal digits 
+officer.message.form.error.workload3 = Enter valid dates
+officer.message.form.error.workload2 = Workload minutes must be between 0 and 59
+officer.message.form.error.workload = Workload cannot be higher than dates difference
+

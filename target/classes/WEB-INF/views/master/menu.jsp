@@ -32,6 +32,11 @@
 			<acme:menu-suboption code="master.menu.authenticated.list-public-finished-duty" action="/authenticated/duty/list-public-finished"/>
 		</acme:menu-option>
 		
+		<acme:menu-option code="master.menu.officer" access="hasRole('Officer')">
+			<acme:menu-suboption code="master.menu.officer.list-duties" action="/officer/duty/list"/>
+			<acme:menu-suboption code="master.menu.officer.create-duties" action="/officer/duty/create"/>
+		</acme:menu-option>
+		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.dashboard" action="/administrator/dashboard/show"/>
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
@@ -39,6 +44,7 @@
 			<acme:menu-suboption code="master.menu.administrator.populate-initial" action="/master/populate-initial"/>
 			<acme:menu-suboption code="master.menu.administrator.populate-sample" action="/master/populate-sample"/>
 			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.spamWordsList" action="/administrator/configuration/list"/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 		</acme:menu-option>
 

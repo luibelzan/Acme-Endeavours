@@ -1,0 +1,27 @@
+officer.duty.form.label.title = Título
+officer.duty.form.label.description = Descripción
+officer.duty.form.label.initial = Periodo inicial
+officer.duty.form.label.end = Periodo final
+officer.duty.form.label.workloadInHours = Carga de trabajo
+officer.duty.form.label.link = Enlace
+officer.duty.form.label.isPublic = Es público
+officer.duty.form.button.create = Crea un deber
+
+
+officer.duty.list.label.initial = Periodo inicial
+officer.duty.list.label.end = Periodo final
+officer.duty.list.label.title = Título
+
+officer.duty.form.button.return = Volver
+officer.duty.form.button.create = Crear un deber
+officer.duty.form.button.delete = Eliminar
+officer.duty.form.button.update = Actualizar
+
+officer.message.form.error.spam = Es spam
+officer.message.form.error.date = La fecha inicial no puede ser posterior a la final
+officer.message.form.error.date3 = No puede ser anterior a hoy
+officer.message.form.error.workload4 = Solo se admiten dos decimales 
+officer.message.form.error.workload3 = Introduce fechas válidas
+officer.message.form.error.workload2 = Debe estar entre 0 y 59
+officer.message.form.error.workload = No puede ser mayor a la diferencia entre fechas
+
