@@ -37,6 +37,7 @@ master.menu.anonymous.list-duty = Ver deberes no terminados
 
 # master.menu.officer #######################################################
 
+master.menu.officer = Oficial
 master.menu.officer.list-duties = Ver deberes
 master.menu.officer.create-duties = Crear un deber
 

@@ -10,6 +10,7 @@
 	<acme:form-textbox code="anonymous.duty.form.label.periodFinal" path="periodInitial"/>
 	<acme:form-textbox code="anonymous.duty.form.label.workload" path="workloadInHours"/>
 	<acme:form-textbox code="anonymous.duty.form.label.link" path="link"/>	
+	<acme:form-checkbox code="anonymous.duty.form.label.isPublic" path="isPublic"/>	
 	
 	<acme:form-return code="anonymous.duty.form.button.return" />
 

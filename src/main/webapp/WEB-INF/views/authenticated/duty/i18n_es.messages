@@ -4,6 +4,7 @@ authenticated.task.form.label.initial = Periodo inicial
 authenticated.task.form.label.end = Periodo final
 authenticated.task.form.label.link = Enlace
 authenticated.task.form.label.workload = Carga de trabajo
+authenticated.task.form.label.isPublic = Es público
 
 authenticated.task.list.label.initial = Periodo inicial
 authenticated.task.list.label.end = Periodo final

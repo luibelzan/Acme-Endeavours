@@ -37,6 +37,7 @@ master.menu.anonymous.list-duty = List non finished duties
 
 # master.menu.officer #######################################################
 
+master.menu.officer = Officer
 master.menu.officer.list-duties = List duties
 master.menu.officer.create-duties = Create a duty
 
@@ -69,6 +70,7 @@ master.menu.employer.my-applications = List my applications
 master.menu.worker = Worker
 master.menu.worker.all-jobs = List all jobs
 master.menu.worker.my-applications = List my applications
+
 
 # master.menu.user-account ####################################################
 
