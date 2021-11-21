@@ -4,6 +4,7 @@ anonymous.duty.form.label.periodInitial = Initial period
 anonymous.duty.form.label.periodFinal = Final period
 anonymous.duty.form.label.workload = Workload
 anonymous.duty.form.label.link = Link
+anonymous.duty.form.label.isPublic = Is public
 
 
 anonymous.duty.list.label.title = Title

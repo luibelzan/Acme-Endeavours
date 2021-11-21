@@ -10,6 +10,7 @@
 	<acme:form-textbox code="authenticated.task.form.label.end" path="periodInitial"/>
 	<acme:form-textbox code="authenticated.task.form.label.workload" path="workloadInHours"/>
 	<acme:form-textbox code="authenticated.task.form.label.link" path="link"/>
+	<acme:form-textbox code="authenticated.task.form.label.isPublic" path="isPublic"/>
 
 	<acme:form-return code="administrator.announcement.form.button.return"/>
 </acme:form>
